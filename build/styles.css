@@ -926,16 +926,16 @@ input[type="range"]::-ms-fill-lower{
   margin-top: 6rem;
 }
 
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .mt-5{
   margin-top: 1.25rem;
 }
 
 .mt-\[258px\]{
   margin-top: 258px;
-}
-
-.mt-3{
-  margin-top: 0.75rem;
 }
 
 .inline-block{
@@ -1170,6 +1170,11 @@ html {
     margin-right: 120px;
   }
 
+  .lg\:mx-\[110px\]{
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+
   .lg\:mb-\[100px\]{
     margin-bottom: 100px;
   }
@@ -1188,6 +1193,10 @@ html {
 
   .lg\:mr-14{
     margin-right: 3.5rem;
+  }
+
+  .lg\:mr-20{
+    margin-right: 5rem;
   }
 
   .lg\:mt-20{
@@ -1279,11 +1288,11 @@ html {
     font-weight: 700;
   }
 
-  .lg\:font-thin{
-    font-weight: 100;
-  }
-
   .lg\:font-medium{
     font-weight: 500;
+  }
+
+  .lg\:font-thin{
+    font-weight: 100;
   }
 }
