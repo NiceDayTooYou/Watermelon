@@ -970,6 +970,10 @@ input[type="range"]::-ms-fill-lower{
   margin-top: 2rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
 .block{
   display: block;
 }
@@ -1177,6 +1181,21 @@ input[type="range"]::-ms-fill-lower{
   padding-bottom: 0.625rem;
 }
 
+.px-16{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pb-20{
   padding-bottom: 5rem;
 }
@@ -1344,9 +1363,38 @@ html {
   scroll-behavior: smooth;
 }
 
+.hover\:rounded-lg:hover{
+  border-radius: 0.5rem;
+}
+
 .hover\:bg-blue-800:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(30 66 159 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-boxColor:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 1 0 / var(--tw-bg-opacity));
+}
+
+.hover\:px-5:hover{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.hover\:py-2:hover{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.hover\:px-7:hover{
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.hover\:px-8:hover{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .hover\:text-secondary:hover{
@@ -1362,6 +1410,11 @@ html {
 
 .hover\:shadow-shadowBro:hover{
   --tw-shadow-color: #B2A4FF;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.hover\:shadow-primary:hover{
+  --tw-shadow-color: #141529;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -1580,6 +1633,16 @@ html {
   .lg\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .lg\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .lg\:pl-\[240px\]{
