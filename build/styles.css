@@ -1601,6 +1601,10 @@ html {
     margin-bottom: 7rem;
   }
 
+  .lg\:mb-20{
+    margin-bottom: 5rem;
+  }
+
   .lg\:h-\[641\]{
     height: 641;
   }
