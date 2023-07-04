@@ -1134,6 +1134,14 @@ input[type="range"]::-ms-fill-lower{
   padding-top: 8rem;
 }
 
+.pb-\[40px\]{
+  padding-bottom: 40px;
+}
+
+.pt-\[46px\]{
+  padding-top: 46px;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1367,6 +1375,54 @@ html {
     margin-top: 125px;
   }
 
+  .lg\:mb-60{
+    margin-bottom: 15rem;
+  }
+
+  .lg\:mt-60{
+    margin-top: 15rem;
+  }
+
+  .lg\:mb-40{
+    margin-bottom: 10rem;
+  }
+
+  .lg\:mt-40{
+    margin-top: 10rem;
+  }
+
+  .lg\:mb-20{
+    margin-bottom: 5rem;
+  }
+
+  .lg\:mb-32{
+    margin-bottom: 8rem;
+  }
+
+  .lg\:mt-32{
+    margin-top: 8rem;
+  }
+
+  .lg\:mb-36{
+    margin-bottom: 9rem;
+  }
+
+  .lg\:mb-\[250px\]{
+    margin-bottom: 250px;
+  }
+
+  .lg\:mb-\[150px\]{
+    margin-bottom: 150px;
+  }
+
+  .lg\:mt-\[250px\]{
+    margin-top: 250px;
+  }
+
+  .lg\:mb-\[120px\]{
+    margin-bottom: 120px;
+  }
+
   .lg\:h-\[641\]{
     height: 641;
   }
@@ -1381,6 +1437,10 @@ html {
 
   .lg\:h-\[726\]{
     height: 726;
+  }
+
+  .lg\:h-auto{
+    height: auto;
   }
 
   .lg\:w-1\/2{
@@ -1436,6 +1496,14 @@ html {
   .lg\:py-2{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+  }
+
+  .lg\:pb-\[40px\]{
+    padding-bottom: 40px;
+  }
+
+  .lg\:pt-\[46px\]{
+    padding-top: 46px;
   }
 
   .lg\:text-2xl{
