@@ -1571,6 +1571,32 @@ html {
     margin-right: 70px;
   }
 
+  .md\:mx-\[90px\]{
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  .md\:mx-\[60px\]{
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .md\:h-\[641px\]{
+    height: 641px;
+  }
+
+  .md\:h-auto{
+    height: auto;
+  }
+
+  .md\:w-3\/12{
+    width: 25%;
+  }
+
+  .md\:w-\[700px\]{
+    width: 700px;
+  }
+
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
