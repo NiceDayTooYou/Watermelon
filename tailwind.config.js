@@ -9,6 +9,7 @@ module.exports = {
         center: true
       },
       colors: {
+        third: '#F45050',
         primary: '#141529',
         secondary: '#F45050',
         fortext: '#F9D949',
