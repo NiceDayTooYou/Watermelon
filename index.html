@@ -64,12 +64,13 @@
                             </div>
                             <hr class="border-gray-500 sm:mx-auto mx-auto w-full h-full" />
 
-                            <div align="center" class="mt-20 mb-20 lg:mt-[250px] lg:mb-[250px]">
-                                <h1 class="text-white font-bitFont font-bold text-base lg:text-3xl text-center mb-2">Welcome To My Personal Website</h1>
-                                <h1 class="text-white italic font-japanFont font-thin text-center text-base lg:text-2xl mb-5">私の個人的なウェブサイトへようこそ</h1>
-                                <a class="text-white italic font-firaCode font-thin text-center items-center text-lg lg:text-2xl bg-secondary lg:px-7 lg:py-2 rounded-lg px-5 py-2">Lets Start</a>
+                            <div align="center" class="mt-20 mb-20 lg:mt-12 lg:mb-12">    
+                                <img src="./img/bumi.gif" alt="" class="w-[500px]">
+                                <h1 class="font-bitFont text-base xl:text-3xl lg:text-3xl md:text-lg font-bold text-white">Welcome to My Personal Website</h1>
+                                <h1 class="japanTitle font-japanFont text-base xl:text-xl lg:text-xl md:text-lg italic text-fortext"></h1>
                                 
                             </div>
+                            
                             <footer>
                                 <hr class="border-gray-500 sm:mx-auto " />
                                 <h1 class="text-white font-firaCode lg:px-16 px-4 text-base lg:text-[15px] font-thin mt-3 mb-3">@2023 Chentaury</h1>
@@ -355,7 +356,8 @@
         </div>
     </div>
 
-    
+
+    <script src="./src/js/anime.min.js"></script>
     <script src="./src/js/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
@@ -365,8 +367,17 @@
             backSpeed: 100,
             loop: true
         })
+
     </script>
-    
+    <script>
+        var typed = new Typed(".japanTitle", {
+            strings: ["私の個人的なウェブサイトへようこそ "],
+            typeSpeed: 100,
+            backSpeed: 100,
+
+        })
+
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js"></script>
 </body>
 </html>
