@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chentaury</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css"  rel="stylesheet" />
-
+    <link rel="stylesheet" href="./src/swiper-bundle.min.css">
     <link rel="stylesheet" href="./build/styles.css">
 </head>
 <body style="background-image: url('https://giffiles.alphacoders.com/211/211748.gif');" class="w-full h-full bg-repeat bg-left bg-cover bg-fixed">
@@ -86,7 +86,7 @@
                             </div>
                             <hr class="border-gray-500 sm:mx-auto " />
 
-                            <div class="flex flex-wrap mt-20 mb-20 lg:mt-[131px] lg:mb-[120px]">
+                            <div class="flex flex-wrap mt-20 mb-20 lg:mt-44 lg:mb-44">
                                 <div align="center" class="w-full lg:w-1/2 px-4 self-center">
                                     <img src="https://i.pinimg.com/originals/96/56/52/96565221b80ce8c89e7a48270765a784.gif" alt="" class="mb-5 w-[350px] rounded-lg shadow-lg shadow-primary">
                                 </div>
@@ -123,7 +123,7 @@
                         </div>
                     </div>
                     <div class="hidden" id="project" role="tabpanel" aria-labelledby="project-tab">
-                        <div class="mx-[40px] w-4/5 lg:w-[790px] lg:h-[641] bg-primary border border-gray-500 backdrop-filter backdrop-blur-lg bg-opacity-25 hover:shadow-lg hover:shadow-shadowBro ">
+                        <div class="mx-[40px]  md:mx-[70px] w-4/5 lg:w-[790px] lg:h-auto bg-primary border border-gray-500 backdrop-filter backdrop-blur-lg bg-opacity-25 hover:shadow-lg hover:shadow-shadowBro ">
                             <div class="flex flex-wrap">
                                 <div align="center" class="text-white font-bitFont w-1/12 border-gray-500 mx-auto mt-2 mb-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="fill-current w-[18px] lg:w-[18px]" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 9.4C21.9-3.1 42.1-3.1 54.6 9.4L160 114.7V96c0-17.7 14.3-32 32-32s32 14.3 32 32v96c0 4.3-.9 8.5-2.4 12.2c-1.6 3.7-3.8 7.3-6.9 10.3l-.1 .1c-3.1 3-6.6 5.3-10.3 6.9c-3.8 1.6-7.9 2.4-12.2 2.4H96c-17.7 0-32-14.3-32-32s14.3-32 32-32h18.7L9.4 54.6C-3.1 42.1-3.1 21.9 9.4 9.4zM256 256a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM114.7 352H96c-17.7 0-32-14.3-32-32s14.3-32 32-32h96 0l.1 0c8.8 0 16.7 3.6 22.5 9.3l.1 .1c3 3.1 5.3 6.6 6.9 10.3c1.6 3.8 2.4 7.9 2.4 12.2v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V397.3L54.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L114.7 352zM416 96c0-17.7 14.3-32 32-32s32 14.3 32 32v18.7L585.4 9.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L525.3 160H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448c-8.8 0-16.8-3.6-22.6-9.3l-.1-.1c-3-3.1-5.3-6.6-6.9-10.3s-2.4-7.8-2.4-12.2l0-.1v0V96zM525.3 352L630.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L480 397.3V416c0 17.7-14.3 32-32 32s-32-14.3-32-32V320v0c0 0 0-.1 0-.1c0-4.3 .9-8.4 2.4-12.2c1.6-3.8 3.9-7.3 6.9-10.4c5.8-5.8 13.7-9.3 22.5-9.4c0 0 .1 0 .1 0h0 96c17.7 0 32 14.3 32 32s-14.3 32-32 32H525.3z"/></svg>
@@ -136,15 +136,150 @@
                                 </div>
                             </div>
                             <hr class="border-gray-500 sm:mx-auto " />
+                            <div class="mt-8 mb-48 lg:mt-32 lg:mb-36">
+                                <div class="flex flex-wrap">
+                                    <div class="w-full lg:w-1/3 px-4 lg:px-16">
+                                        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="mb-44 lg:mb-10 text-white font-firaCode text-lg lg:text-2xl xl:text-2xl font-thin inline text-center" type="button"><svg class="w-[20px] mb-1 inline-block" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg> My Project</button>
+                                        <div id="dropdown" class="hidden" aria-labelledby="dropdownDefaultButton">
+                                            <ul id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+                                                <li role="presentation" class="ml-16">
+                                                    <button data-tabs-target="#alpha" aria-controls="alpha" id="alpha-tab"  type="button" aria-selected="false" role="tab">
+                                                        <h1 class="text-fortext text-base xl:text-xl lg:text-xl font-firaCode font-semibold" >Alpha</h1>
+                                                    </button>
+                                                </li>
+                                                <li role="presentation" class="ml-16">
+                                                    <button data-tabs-target="#namra" aria-controls="namra" id="namra-tab"  type="button" aria-selected="false" role="tab">
+                                                        <h1 class="text-fortext text-base xl:text-xl lg:text-xl font-firaCode font-semibold" >Namra</h1> 
+                                                    </button>
+                                                </li>
+                                                <li role="presentation" class="ml-16">
+                                                    <button data-tabs-target="#dock" aria-controls="dock" id="dock-tab"  type="button" aria-selected="false" role="tab">
+                                                        <h1 class="text-fortext text-base xl:text-xl lg:text-xl font-firaCode font-semibold" >Docker Project</h1>
+                                                    </button>
+                                                </li>
+                                                <li role="presentation" class="ml-16">
+                                                    <button data-tabs-target="#shell" aria-controls="shell" id="shell-tab"  type="button" aria-selected="false" role="tab">
+                                                        <h1 class="text-fortext text-base xl:text-xl lg:text-xl font-firaCode font-semibold" >Shell </h1>
+                                                    </button>
+                                                </li>
+                                                <li role="presentation" class="ml-16">
+                                                    <button data-tabs-target="#aiden" aria-controls="aiden" id="aiden-tab"  type="button" aria-selected="false" role="tab">
+                                                        <h1 class="text-fortext text-base xl:text-xl lg:text-xl font-firaCode font-semibold" >Gometri</h1>
+                                                    </button>
+                                                </li>
+                                                <li role="presentation" class="ml-16">
+                                                    <button data-tabs-target="#ctf" aria-controls="ctf" id="ctf-tab"  type="button" aria-selected="false" role="tab">
+                                                        <h1 class="text-fortext text-base xl:text-xl lg:text-xl font-firaCode font-semibold" >CTF Challenge</h1>
+                                                    </button>
+                                                </li>                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div id="myTabContent" class="w-ful lg:2/3 px-4 lg:px-16 self-center lg:ml-12 mt-5 lg:mt-0">
+                                        <div class="hidden" id="alpha" role="tabpanel" aria-labelledby="alpha-tab">
+                                            <div class="max-w-md bg-primary border border-gray-300 rounded-lg bg-opacity-25 backdrop-filter backdrop-blur-lg overflow-hidden ">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg " src="https://images8.alphacoders.com/939/939716.png" alt=""/>
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-lg lg:text-2xl font-bold tracking-tight text-fortext font-bitFont ">Alpha</h5>
+                                                    </a>
+                                                    <p class="mb-7 font-normal font-firaCode text-white lg:text-lg">Project about microservice made with golang, javascript, and tools for deployment</p>
+                                                    <a href="https://github.com/rulanugrh/alpha" class="block font-firaCode text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                                        view-project
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hidden" id="namra" role="tabpanel" aria-labelledby="namra-tab">
+                                            <div class="max-w-md bg-primary border border-gray-300 rounded-lg bg-opacity-25 backdrop-filter backdrop-blur-lg overflow-hidden ">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg " src="https://images3.alphacoders.com/996/996741.png" alt=""/>
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-lg lg:text-2xl font-bold tracking-tight text-fortext font-bitFont ">Namra</h5>
+                                                    </a>
+                                                    <p class="mb-7 font-normal font-firaCode text-white lg:text-lg">My portofolio made with tailwind. This is version 2 of my design portofolio</p>
+                                                    <a href="https://github.com/rulanugrh/namra" class="block font-firaCode text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                                        view-project
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hidden" id="dock" role="tabpanel" aria-labelledby="dock-tab">
+                                            <div class="max-w-md bg-primary border border-gray-300 rounded-lg bg-opacity-25 backdrop-filter backdrop-blur-lg overflow-hidden ">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg " src="https://images4.alphacoders.com/966/966314.jpg" alt=""/>
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-lg lg:text-2xl font-bold tracking-tight text-fortext font-bitFont ">Docker Project</h5>
+                                                    </a>
+                                                    <p class="mb-7 font-normal font-firaCode text-white lg:text-lg">Something about docker container and sample example for deployment application</p>
+                                                    <a href="https://github.com/rulanugrh/docker-project" class="block font-firaCode text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                                        view-project
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hidden" id="shell" role="tabpanel" aria-labelledby="shell-tab">
+                                            <div class="max-w-md bg-primary border border-gray-300 rounded-lg bg-opacity-25 backdrop-filter backdrop-blur-lg overflow-hidden ">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg" src="https://images7.alphacoders.com/125/1259209.png" alt=""/>
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-lg lg:text-2xl font-bold tracking-tight text-fortext font-bitFont ">Shell</h5>
+                                                    </a>
+                                                    <p class="mb-7 font-normal font-firaCode text-white lg:text-lg">Project about microservice made with golang, javascript, and tools for deployment</p>
+                                                    <a href="https://github.com/rulanugrh/alpha" class="block font-firaCode text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                                        view-project
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hidden" id="aiden" role="tabpanel" aria-labelledby="aiden-tab">
+                                            <div class="max-w-md bg-primary border border-gray-300 rounded-lg bg-opacity-25 backdrop-filter backdrop-blur-lg overflow-hidden ">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg" src="https://images7.alphacoders.com/120/1205979.png" alt=""/>
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-lg lg:text-2xl font-bold tracking-tight text-fortext font-bitFont ">Gometri</h5>
+                                                    </a>
+                                                    <p class="mb-7 font-normal font-firaCode text-white lg:text-lg">Project about golang and open telemetry. The goal is to trigger every query to open telemetry</p>
+                                                    <a href="https://github.com/rulanugrh/gometri" class="block font-firaCode text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                                        view-project
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hidden" id="ctf" role="tabpanel" aria-labelledby="ctf-tab">
+                                            <div class="max-w-md bg-primary border border-gray-300 rounded-lg bg-opacity-25 backdrop-filter backdrop-blur-lg overflow-hidden ">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg" src="https://images7.alphacoders.com/124/1244429.jpg" alt=""/>
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-lg lg:text-2xl font-bold tracking-tight text-fortext font-bitFont ">CTF</h5>
+                                                    </a>
+                                                    <p class="mb-7 font-normal font-firaCode text-white lg:text-lg">Make some questions related to CTF such as cryptography, binary exploitation, forensic, and so on</p>
+                                                    <a href="https://github.com/rulanugrh/soal-ctf" class="block font-firaCode text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                                        view-project
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <div align="center" class="mt-[258px] mb-[220px]">
-                                <h1 class="text-white font-bitFont font-bold text-lg lg:text-3xl text-center mb-2">Welcome To My zzz Website</h1>
-                                <h1 class="text-white italic font-japanFont font-thin text-center text-lg lg:text-2xl mb-5">私の個人的なウェブサイトへようこそ</h1>
-                                <a class="text-white italic font-firaCode font-thin text-center items-center text-lg lg:text-2xl bg-secondary lg:px-7 lg:py-2 rounded-lg px-5 py-2">Lets Start</a>
-                                
                             </div>
-                            <hr class="border-gray-500 sm:mx-auto " />
-                            <h1 class="text-white font-firaCode lg:px-16 px-4 text-base lg:text-[15px] font-thin mt-2 mb-2">@2023 Chentaury</h1>
+                            <footer>
+                                <hr class="border-gray-500 sm:mx-auto " />
+                                <h1 class="text-white font-firaCode lg:px-16 px-4 text-base lg:text-[15px] font-thin mt-3 mb-3">@2023 Chentaury</h1>
+                            </footer>
                         </div>
                     </div>
                     <div class="hidden" id="contact" role="tabpanel" aria-labelledby="contact-tab">
@@ -178,6 +313,8 @@
         </div>
     </div>
 
+    
+    <script src="./src/js/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed(".auto-type", {
