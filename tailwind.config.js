@@ -9,6 +9,7 @@ module.exports = {
         center: true
       },
       colors: {
+        py: '#3776AB',
         third: '#F45050',
         primary: '#141529',
         secondary: '#F45050',
