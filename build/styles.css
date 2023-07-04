@@ -1597,6 +1597,10 @@ html {
     margin-top: 250px;
   }
 
+  .lg\:mb-28{
+    margin-bottom: 7rem;
+  }
+
   .lg\:h-\[641\]{
     height: 641;
   }
