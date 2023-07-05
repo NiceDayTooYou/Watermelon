@@ -2317,6 +2317,10 @@ input:checked + .toggle-bg{
   border-radius: 0.5rem;
 }
 
+.rounded-full{
+  border-radius: 9999px;
+}
+
 .rounded-b{
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -3431,6 +3435,11 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-boxColor:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 1 0 / var(--tw-bg-opacity));
+}
+
 .hover\:font-bold:hover{
   font-weight: 700;
 }
@@ -3720,14 +3729,6 @@ html {
     margin-top: 2rem;
   }
 
-  .lg\:ml-12{
-    margin-left: 3rem;
-  }
-
-  .lg\:mr-12{
-    margin-right: 3rem;
-  }
-
   .lg\:h-\[580px\]{
     height: 580px;
   }
@@ -3778,6 +3779,18 @@ html {
 
   .lg\:p-1{
     padding: 0.25rem;
+  }
+
+  .lg\:p-5{
+    padding: 1.25rem;
+  }
+
+  .lg\:p-4{
+    padding: 1rem;
+  }
+
+  .lg\:p-6{
+    padding: 1.5rem;
   }
 
   .lg\:px-10{
