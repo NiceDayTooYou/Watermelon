@@ -1424,24 +1424,14 @@ html {
     visibility: visible;
   }
 
-  .md\:mx-\[60px\]{
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-
-  .md\:mx-\[90px\]{
-    margin-left: 90px;
-    margin-right: 90px;
+  .md\:mx-\[20px\]{
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .md\:mx-\[50px\]{
     margin-left: 50px;
     margin-right: 50px;
-  }
-
-  .md\:mx-\[20px\]{
-    margin-left: 20px;
-    margin-right: 20px;
   }
 
   .md\:h-\[641px\]{
@@ -1476,29 +1466,9 @@ html {
     visibility: visible;
   }
 
-  .lg\:mx-\[90px\]{
-    margin-left: 90px;
-    margin-right: 90px;
-  }
-
   .lg\:mx-auto{
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .lg\:mx-\[50px\]{
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  .lg\:mx-\[70px\]{
-    margin-left: 70px;
-    margin-right: 70px;
-  }
-
-  .lg\:mx-\[20px\]{
-    margin-left: 20px;
-    margin-right: 20px;
   }
 
   .lg\:mb-0{
@@ -1549,24 +1519,12 @@ html {
     margin-top: 2rem;
   }
 
-  .lg\:h-\[641px\]{
-    height: 641px;
+  .lg\:h-\[580px\]{
+    height: 580px;
   }
 
   .lg\:h-auto{
     height: auto;
-  }
-
-  .lg\:h-\[500px\]{
-    height: 500px;
-  }
-
-  .lg\:h-\[600px\]{
-    height: 600px;
-  }
-
-  .lg\:h-\[580px\]{
-    height: 580px;
   }
 
   .lg\:w-1\/2{
@@ -1607,6 +1565,10 @@ html {
 
   .lg\:w-\[790px\]{
     width: 790px;
+  }
+
+  .lg\:w-\[700px\]{
+    width: 700px;
   }
 
   .lg\:p-1{
@@ -1690,11 +1652,6 @@ html {
     visibility: visible;
   }
 
-  .xl\:mx-\[70px\]{
-    margin-left: 70px;
-    margin-right: 70px;
-  }
-
   .xl\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1712,9 +1669,9 @@ html {
 }
 
 @media (min-width: 1536px){
-  .\32xl\:mx-\[70px\]{
-    margin-left: 70px;
-    margin-right: 70px;
+  .\32xl\:mx-\[10px\]{
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .\32xl\:mx-\[60px\]{
@@ -1722,17 +1679,11 @@ html {
     margin-right: 60px;
   }
 
-  .\32xl\:mx-\[110px\]{
-    margin-left: 110px;
-    margin-right: 110px;
-  }
-
-  .\32xl\:mx-\[10px\]{
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
   .\32xl\:h-\[641px\]{
     height: 641px;
+  }
+
+  .\32xl\:w-\[790px\]{
+    width: 790px;
   }
 }
