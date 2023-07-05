@@ -1722,6 +1722,16 @@ html {
     margin-right: 60px;
   }
 
+  .\32xl\:mx-\[110px\]{
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+
+  .\32xl\:mx-\[10px\]{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   .\32xl\:h-\[641px\]{
     height: 641px;
   }
