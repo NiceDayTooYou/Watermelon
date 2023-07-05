@@ -1491,6 +1491,16 @@ html {
     margin-right: 50px;
   }
 
+  .lg\:mx-\[70px\]{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .lg\:mx-\[20px\]{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   .lg\:mb-0{
     margin-bottom: 0px;
   }
@@ -1680,6 +1690,11 @@ html {
     visibility: visible;
   }
 
+  .xl\:mx-\[70px\]{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
   .xl\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1693,5 +1708,21 @@ html {
   .xl\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1536px){
+  .\32xl\:mx-\[70px\]{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .\32xl\:mx-\[60px\]{
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .\32xl\:h-\[641px\]{
+    height: 641px;
   }
 }
