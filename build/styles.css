@@ -1652,6 +1652,20 @@ html {
     visibility: visible;
   }
 
+  .xl\:mx-\[110px\]{
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+
+  .xl\:mx-\[60px\]{
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .xl\:w-\[790px\]{
+    width: 790px;
+  }
+
   .xl\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
