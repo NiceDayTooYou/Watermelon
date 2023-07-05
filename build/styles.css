@@ -3624,10 +3624,6 @@ html {
     visibility: visible;
   }
 
-  .md\:h-\[641px\]{
-    height: 641px;
-  }
-
   .md\:h-auto{
     height: auto;
   }
@@ -3913,8 +3909,8 @@ html {
     padding-right: 0.25rem;
   }
 
-  .\32xl\:pt-\[100px\]{
-    padding-top: 100px;
+  .\32xl\:pt-28{
+    padding-top: 7rem;
   }
 
   .\32xl\:text-lg{
