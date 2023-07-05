@@ -27,6 +27,9 @@ module.exports = {
         firaCode: "'Fira Code', monospace",
         bitFont: "'Silkscreen', cursive",
         japanFont: "'Noto Sans JP', sans-serif"
+      },
+      screen: {
+        '2xl': '1320px'
       }
     },
   },
