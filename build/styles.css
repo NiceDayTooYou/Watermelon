@@ -3696,12 +3696,20 @@ html {
     margin-bottom: 2rem;
   }
 
-  .lg\:mb-\[100px\]{
-    margin-bottom: 100px;
+  .lg\:mb-\[80px\]{
+    margin-bottom: 80px;
+  }
+
+  .lg\:ml-12{
+    margin-left: 3rem;
   }
 
   .lg\:ml-14{
     margin-left: 3.5rem;
+  }
+
+  .lg\:mr-12{
+    margin-right: 3rem;
   }
 
   .lg\:mr-14{
@@ -3882,6 +3890,10 @@ html {
   .\32xl\:mx-\[60px\]{
     margin-left: 60px;
     margin-right: 60px;
+  }
+
+  .\32xl\:mb-\[100px\]{
+    margin-bottom: 100px;
   }
 
   .\32xl\:h-\[641px\]{
