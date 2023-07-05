@@ -3700,16 +3700,8 @@ html {
     margin-bottom: 80px;
   }
 
-  .lg\:ml-12{
-    margin-left: 3rem;
-  }
-
   .lg\:ml-14{
     margin-left: 3.5rem;
-  }
-
-  .lg\:mr-12{
-    margin-right: 3rem;
   }
 
   .lg\:mr-14{
@@ -3726,6 +3718,14 @@ html {
 
   .lg\:mt-8{
     margin-top: 2rem;
+  }
+
+  .lg\:ml-12{
+    margin-left: 3rem;
+  }
+
+  .lg\:mr-12{
+    margin-right: 3rem;
   }
 
   .lg\:h-\[580px\]{
