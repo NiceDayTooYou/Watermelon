@@ -21,7 +21,10 @@ module.exports = {
         bash: '#4EAA25',
         k8s: '#326CE5',
         telwin: '#06B6D4',
-        linux: '#FCC624'
+        linux: '#FCC624',
+        cardBg: '#505C70',
+        shadowCard: '#FF79C6',
+        textCard: '#84DBEF'
       },
       fontFamily: {
         firaCode: "'Fira Code', monospace",
