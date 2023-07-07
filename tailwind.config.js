@@ -22,7 +22,7 @@ module.exports = {
         k8s: '#326CE5',
         telwin: '#06B6D4',
         linux: '#FCC624',
-        cardBg: '#505C70',
+        cardBg: '#18202B',
         shadowCard: '#FF79C6',
         textCard: '#84DBEF'
       },
